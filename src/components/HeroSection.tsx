@@ -52,7 +52,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
         <div className="animate-slide-up">
           <h1 className="text-5xl md:text-7xl font-orbitron font-black mb-6 text-neon-blue text-neon-glow animate-pulse-neon">
-            GAME DEVELOPER
+            Game developer
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-foreground/90 max-w-2xl mx-auto leading-relaxed">
             Crafting immersive digital experiences with cutting-edge technology.

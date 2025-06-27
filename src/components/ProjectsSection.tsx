@@ -9,7 +9,7 @@ const ProjectsSection = () => {
       id: 1,
       title: "Cyber Runner VR",
       description: "An immersive VR parkour game set in a cyberpunk metropolis. Players navigate through neon-lit cityscapes using advanced movement mechanics and time manipulation abilities.",
-      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&h=300&fit=crop",
+      image: "https://raw.githubusercontent.com/louaykhemirii/Img/refs/heads/master/Kids.png",
       technologies: ["Unity", "C#", "VR SDK", "Blender"],
       role: "Lead Developer",
       demoLink: "#",

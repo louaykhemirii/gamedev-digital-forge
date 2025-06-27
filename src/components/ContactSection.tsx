@@ -7,6 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Mail, MapPin, Phone, Github, Linkedin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import emailjs from '@emailjs/browser';
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -19,11 +20,35 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+  emailjs.send(
+  "service_rpojc4i",
+  "template_1xdwgtd",
+  {
+    title: formData.subject,
+    name: formData.name,
+    time: new Date().toLocaleTimeString(), // optional
+    message: formData.message,
+    email: formData.email,
+  },
+  "zvLMyWSwUVDsUTtLK"
+)
+
+
+  .then(() => {
     toast({
       title: "Message Sent!",
       description: "Thank you for reaching out. I'll get back to you soon!",
     });
     setFormData({ name: '', email: '', subject: '', message: '' });
+  })
+  .catch((error) => {
+    toast({
+      title: "Error",
+      description: "Something went wrong. Please try again later.",
+    });
+    console.error('EmailJS Error:', error);
+  });
+
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -37,19 +62,19 @@ const ContactSection = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "gamedev@example.com",
-      link: "mailto:gamedev@example.com"
+      value: "louaykhemirii@gmail.com",
+      link: "mailto:louaykhemirii@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "+48792844661",
+      link: "tel:+48792844661"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Wroclaw, PL",
       link: null
     }
   ];
@@ -58,13 +83,13 @@ const ContactSection = () => {
     {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
-      url: "https://github.com/gamedev",
+      url: "https://github.com/louaykhemirii",
       color: "hover:text-neon-blue"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
-      url: "https://linkedin.com/in/gamedev",
+      url: "https://www.linkedin.com/in/louay-khemiri24/",
       color: "hover:text-neon-purple"
     }
   ];

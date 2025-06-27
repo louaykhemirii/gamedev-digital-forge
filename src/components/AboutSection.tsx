@@ -40,19 +40,23 @@ const AboutSection = () => {
           {/* Bio Content */}
           <div className="space-y-6">
             <p className="text-lg leading-relaxed text-foreground/90">
-              I'm a passionate game developer with over 5 years of experience creating immersive gaming experiences. 
-              My journey began with a fascination for interactive storytelling and has evolved into expertise in 
-              cutting-edge game development technologies.
+              I am Louay Khemiri, a game programmer and Computer Engineering student at Wrocław University of Science and Technology in Poland. I have been involved in the game development field since the start of my academic career through four internships with different game studios.
+              I have practical experience in designing and implementing game mechanics and serious games especially during my internship at Orange Tunisia where I worked on simulations that replicate real-world tasks and environments. My most significant professional experience was at DM Nova, an educational technology startup. I created an educational video game for children which combines entertainment with educational content.
+
+
+
             </p>
             <p className="text-lg leading-relaxed text-foreground/90">
-              I believe in the power of games to inspire, educate, and bring people together. My development 
-              philosophy centers around creating engaging gameplay mechanics while maintaining clean, scalable code 
-              architecture that enables seamless collaboration with cross-functional teams.
+              I have also developed several independent game projects which 
+              demonstrate my creative abilities and technical expertise.
+               Some of these projects are complex and may not have online demos, 
+               but they are fully functional and can be run locally.
+
             </p>
             <p className="text-lg leading-relaxed text-foreground/90">
-              When I'm not coding, you'll find me exploring the latest gaming trends, contributing to open-source 
-              projects, or experimenting with emerging technologies like VR and AR to push the boundaries of 
-              what's possible in interactive entertainment.
+             You can check out my work by visiting my GitHub page for all my projects and my website for more information.
+              Enjoy the journey through my creations!
+
             </p>
           </div>
 

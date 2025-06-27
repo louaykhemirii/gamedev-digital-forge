@@ -23,7 +23,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center">
             <p className="text-foreground/70">
-              © 2024 Game Developer Portfolio. Built with React, TypeScript, and Tailwind CSS.
+              © 2025 Game Developer Portfolio. Built with React, TypeScript, and Tailwind CSS.
             </p>
             <p className="text-neon-blue mt-2 font-orbitron">
               Crafting the future of interactive entertainment

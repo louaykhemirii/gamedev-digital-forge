@@ -6,58 +6,52 @@ import { Download, Calendar, MapPin, Building } from 'lucide-react';
 const ResumeSection = () => {
   const experiences = [
     {
-      title: "Senior Game Developer",
-      company: "NeoPixel Studios",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
+      title: "Game Developer",
+      company: "DM NOVA",
+      location: "Sousse,Tun",
+      period: "2023 - 2024",
       description: [
-        "Lead development of multiplayer VR gaming experiences using Unity and C#",
-        "Architected scalable networking solutions supporting 100+ concurrent players",
-        "Mentored junior developers and conducted code reviews",
-        "Implemented advanced AI behaviors and gameplay mechanics"
+        "Micro Game developer in a SaaS mobile application for kids ",
+        "Optimized the application's size from 180 MB to 80 MB by implementing clean code practices, reducing load times by 55% and improving overall performance",
+        "conducted code reviews",
+        "Implemented Game mechanics and UI system "
       ]
     },
     {
       title: "Game Developer",
-      company: "Cyber Games Inc.",
-      location: "Austin, TX",
-      period: "2020 - 2022",
+      company: "Orange Tunisia",
+      location: "Tunis, Tunisia",
+      period: "2022 - 2023",
       description: [
-        "Developed mobile and PC games using Unity and Unreal Engine",
+        "Developed A serious game for kids to interract with the envirement inside the company building  ",
         "Collaborated with artists and designers to implement game features",
         "Optimized game performance for various platforms",
-        "Integrated third-party SDKs and analytics systems"
+         "Worked with cross-functional teams in agile development environment",
+        "Implemented the Backend of the Game "
       ]
     },
     {
-      title: "Junior Game Programmer",
-      company: "Indie Game Collective",
+      title: "Gameplay Programmer",
+      company: "Freelancer",
       location: "Remote",
-      period: "2019 - 2020",
+      period: "2014 - 2016",
       description: [
         "Created gameplay systems and mechanics for indie game projects",
-        "Worked with cross-functional teams in agile development environment",
         "Contributed to open-source game development tools",
-        "Participated in game jams and prototype development"
+        "Optimizing games and debugging code "
       ]
     }
   ];
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of Technology",
-      location: "California, USA",
-      period: "2015 - 2019",
+      degree: "Master's Degree in Computer Engineering ",
+      school: "Wroclaw University of Science and Technology ",
+      location: "Wroclaw, Poland",
+      period: "2024 - 2025",
       details: "Specialized in Game Development and Interactive Media"
     },
-    {
-      degree: "Game Development Certification",
-      school: "Unity Technologies",
-      location: "Online",
-      period: "2019",
-      details: "Advanced Unity Development and C# Programming"
-    }
+   
   ];
 
   return (
